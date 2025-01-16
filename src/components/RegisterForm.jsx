@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import '../Registerpage.css'
 
 function RegisterForm() {
   const navigate = useNavigate();
@@ -34,7 +35,7 @@ function RegisterForm() {
   return (
     <div className="register-form-container">
       <form onSubmit={handleSubmit} className="cyber-form">
-        <h2>Register for TechFest 2024</h2>
+        <h2>Register for Robo Rumble 2025</h2>
         {error && <div className="error-message">{error}</div>}
         
         <div className="form-group">
@@ -97,6 +98,7 @@ function RegisterForm() {
             name="year"
             value={formData.year}
             onChange={handleChange}
+            style={{ color: 'grey' }} 
             required
           >
             <option value="">Select Year</option>

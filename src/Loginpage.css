@@ -1,0 +1,82 @@
+:root {
+  --login-bg: #0f0f0f;
+  --login-primary: #00ff88;
+  --login-secondary: #00ffff;
+  --login-text: #ffffff;
+  --login-border: #646cff;
+}
+
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--login-bg);
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.cyber-form {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px var(--login-primary);
+  max-width: 400px;
+  width: 100%;
+}
+
+.cyber-form h2 {
+  color: var(--login-primary);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--login-border);
+  border-radius: 5px;
+  background: transparent;
+  color: var(--login-text);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: var(--login-primary);
+  box-shadow: 0 0 5px var(--login-primary);
+}
+
+.cyber-button {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background: var(--login-primary);
+  color: var(--login-bg);
+  font-size: 1rem;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cyber-button:hover {
+  background: var(--login-secondary);
+  transform: scale(1.05);
+}
+
+.error-message {
+  background: rgba(255, 0, 0, 0.1);
+  color: #ff0000;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
