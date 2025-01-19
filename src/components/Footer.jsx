@@ -14,7 +14,7 @@ function Footer() {
             This project is open source. Your contributions are welcome and appreciated.
           </p>
           <a
-            href="https://github.com/milliondreamsblog/RoboRumble2.0"
+            href="https://github.com/ad1tyayadav/tech-fest"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-4 px-6 py-2 text-lg bg-cyan-500 hover:bg-cyan-400 text-gray-900 font-bold rounded-lg transition transform hover:scale-105"
@@ -41,7 +41,7 @@ function Footer() {
             </a>
             <span>&</span>
             <a
-              href="https://www.linkedin.com/in/aditya-yadav-39b20529a"
+              href="https://github.com/ad1tyayadav"
               target="_blank"
               rel="noopener noreferrer"
               className="text-cyan-400 hover:text-cyan-500 transition transform hover:scale-105 flex items-center"
@@ -53,7 +53,7 @@ function Footer() {
           {/* Social Icons */}
           <div className="flex space-x-4">
             <a
-              href="https://github.com/milliondreamsblog/RoboRumble2.0"
+              href="https://github.com/ad1tyayadav/tech-fest"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition transform hover:scale-125"
@@ -66,26 +66,14 @@ function Footer() {
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition transform hover:scale-125"
             >
-            <a
-              href="https://twitter.com/ask_akshat"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-cyan-400 transition transform hover:scale-125"
-            ></a>
               <FaTwitter size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/in/akshat-darshi/"
+              href="https://www.linkedin.com/in/aditya-yadav-39b20529a/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition transform hover:scale-125"
             >
-            <a
-              href="linkedin.com/in/akshat-darshi/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-cyan-400 transition transform hover:scale-125"
-            ></a>
               <FaLinkedin size={24} />
             </a>
           </div>

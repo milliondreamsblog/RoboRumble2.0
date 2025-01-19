@@ -29,20 +29,20 @@ function CountdownTimer() {
   }, []);
 
   return (
-    <section className="countdown-section text-center py-10">
-      <h2 className="text-3xl text-primary font-bold">Event Starts In</h2>
-      <div className="countdown-timer flex justify-center gap-4 mt-6">
-        {Object.entries(timeLeft).map(([unit, value]) => (
-          <div
-            key={unit}
-            className="time-block bg-black border border-primary rounded-lg p-4"
-          >
-            <span className="number text-4xl text-secondary">{value}</span>
-            <span className="label text-primary">{unit}</span>
-          </div>
-        ))}
-      </div>
-    </section>
+    <section className="relative top-28 countdown-section text-center py-10">
+    <h2 className="text-3xl sm:text-4xl md:text-5xl text-primary font-bold">Event Starts In</h2>
+    <div className="countdown-timer flex flex-wrap justify-center gap-4 mt-6">
+      {Object.entries(timeLeft).map(([unit, value]) => (
+        <div
+          key={unit}
+          className="time-block bg-black border border-primary rounded-lg p-4 w-20 sm:w-24 md:w-32"
+        >
+          <span className="number text-4xl sm:text-5xl md:text-6xl text-secondary">{value}</span>
+          <span className="label text-primary text-sm sm:text-base md:text-lg">{unit}</span>
+        </div>
+      ))}
+    </div>
+  </section>
   );
 }
 

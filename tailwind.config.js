@@ -20,6 +20,8 @@ export default {
         pulse: 'pulse 2s infinite',
         glitch: 'glitch 1.5s infinite',
         glow: 'glow 1.5s ease-in-out infinite',
+        electric: 'electric 1.5s infinite alternate', // Electric border animation
+ // Added slow spin for border
       },
       keyframes: {
         pulse: {
@@ -38,9 +40,13 @@ export default {
           '0%, 100%': { boxShadow: '0 0 10px #22d3ee, 0 0 20px #06b6d4' },
           '50%': { boxShadow: '0 0 20px #22d3ee, 0 0 30px #06b6d4' },
         },
+        electric: {
+          '0%': { boxShadow: '0 0 15px rgba(0, 255, 255, 0.5)' },
+          '100%': { boxShadow: '0 0 30px rgba(0, 255, 255, 1)' }, // Electric glowing effect
+        },
       },
       backgroundImage: {
-        'hero-pattern': "url('/path/to/hero-bg.jpg')", // Replace with your actual path
+        'hero-pattern': "url('/robot.png')", // Replace with your actual path
       },
     },
   },
