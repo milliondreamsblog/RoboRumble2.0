@@ -6,14 +6,14 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Aditya Yadav",
-      role: "Developer",
+      role: "Web Developer",
       image: "https://avatars.githubusercontent.com/u/152635984?v=4", // Replace with actual image URLs
       linkedin: "https://www.linkedin.com/in/aditya-yadav-39b20529a/",
       github: "https://github.com/adityayadav",
     },
     {
       name: "Akshat Darshi",
-      role: "Leader",
+      role: "Tech-Lead",
       image: "https://avatars.githubusercontent.com/u/114696765?v=4",
       linkedin: "https://www.linkedin.com/in/akshat-darshi/",
       github: "https://github.com/milliondreamsblog",

@@ -3,19 +3,19 @@ export const events = [
         id: 1,
         title: 'KarmaKode',
         objective: "Developers collaborate to build web-based solutions within a limited timeframe.",
-        img: 'https://stock.adobe.com/search?k=hackathon'
+        img: 'https://media.istockphoto.com/id/1125107251/vector/hackathon-background-hack-marathon-coding-event-glitch-poster-and-saturated-binary-data-code.jpg?s=612x612&w=0&k=20&c=aqnvlYk_4_8qIQi8bUbg6LQeNBBl8c-FyuSPyXCNgro='
     },
     {
         id: 2,
         title: 'Chakra Circuit',
         objective: "Build your own robot to achieve the highest speed and outrun others on the track.",
-        img: 'https://www.gettyimages.com/photos/roborace'
+        img: 'https://media.istockphoto.com/id/1700288868/photo/engineer-asian-students-assembling-robotics-kits-learning-mechanical-control-robotics.jpg?s=612x612&w=0&k=20&c=nXRjJEJYon6PaKU-sKbuBQkIl-atDe5DcmkA-JLA_Kc='
     },
     {
         id: 3,
         title: 'Kurukshetra Gaming Showdown',
         objective: "An exciting gaming competition featuring popular games.",
-        img: 'https://unsplash.com/s/photos/gaming-event'
+        img: 'https://media.istockphoto.com/id/1700288868/photo/engineer-asian-students-assembling-robotics-kits-learning-mechanical-control-robotics.jpg?s=612x612&w=0&k=20&c=nXRjJEJYon6PaKU-sKbuBQkIl-atDe5DcmkA-JLA_Kc='
     },
     {
         id: 4,
@@ -28,7 +28,7 @@ export const events = [
 export const eventsDetails = [
         {
             id: 2,
-            image: 'https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg',
+            image: 'https://media.istockphoto.com/id/1788155270/photo/startup-co-working-space.jpg?s=612x612&w=0&k=20&c=QJnl27cVi_pW8DCs2SoHNyBjWrcjoh8z5if0aUgMMbs=',
             title: "Robo-Obstacle Race",
             details: "The goal is to build your own robot, either wired or wireless, within the required specifications in order to obtain the highest speed possible in order to outrun other robots on the track and cross the finish line in the shortest time possible.",
             generalInfo: [
@@ -79,7 +79,7 @@ export const eventsDetails = [
     // Event 1: Hackathon
     {
         id: 1,
-        image: 'https://techfest.org/static/media/hackathon.abc123.jpg',
+        image: 'https://media.istockphoto.com/id/1788155270/photo/startup-co-working-space.jpg?s=612x612&w=0&k=20&c=QJnl27cVi_pW8DCs2SoHNyBjWrcjoh8z5if0aUgMMbs=',
         title: "Web-D Hackathon",
         details: "A dynamic event where developers come together to brainstorm, build, and present innovative web solutions within a limited timeframe in a collaborative environment.",
         generalInfo: [
@@ -123,7 +123,7 @@ export const eventsDetails = [
     // Event 2: Robo-Obstacle Race
     {
         id: 2,
-        image: 'https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg',
+        image: 'https://media.istockphoto.com/id/1700288868/photo/engineer-asian-students-assembling-robotics-kits-learning-mechanical-control-robotics.jpg?s=612x612&w=0&k=20&c=nXRjJEJYon6PaKU-sKbuBQkIl-atDe5DcmkA-JLA_Kc=',
         title: "Robo-Obstacle Race",
         details: "Participants must build and program their robots, either wired or wireless, to navigate an obstacle-filled track with speed and precision. The aim is to overcome hurdles and reach the finish line in the shortest time.",
         generalInfo: [
@@ -175,7 +175,7 @@ export const eventsDetails = [
     // Event 3: Gaming
     {
         id: 3,
-        image: 'https://techfest.org/static/media/gaming.xyz123.jpg',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8U1QzOFYqLbYmTliRR1UP1IorrMxHKWroLA&s',
         title: "Gaming Championship",
         details: "An exciting competition for gamers to showcase their skills in popular games like BGMI and COD. PC gaming challenges will also be included for an electrifying experience.",
         generalInfo: [
